@@ -1,5 +1,5 @@
 from server.instance import server
 
-from controller.books import *
+from controllers.books import *
 
 server.run()

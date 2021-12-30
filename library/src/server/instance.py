@@ -1,5 +1,5 @@
-from flask import flask
-from flask_restplus import api
+from flask import Flask
+from flask_restx import Api
 
 class Server():
     def __init__(self, ):
@@ -15,3 +15,5 @@ class Server():
         self.app.run(
             debug=True
         )
+
+server = Server()
