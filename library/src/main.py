@@ -1,9 +1,5 @@
-from flask import Flask
+from server.instance import server
 
-app = Flask(__name__)
+from controller.books import *
 
-@app.route("/")
-
-def hello_world():
-    return "Hello Word"
-
+server.run()
